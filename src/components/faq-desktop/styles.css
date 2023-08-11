@@ -1,0 +1,23 @@
+.faqDesktop{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 30px auto 40px;
+
+}
+.faqDesktop-option p {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 13px 0;
+    line-height: 18px;
+    text-align: left;
+    color: #000000;
+    
+}
+@media(max-width: 1200px){
+    .faqDesktop{
+        display: none;
+    
+    }
+}

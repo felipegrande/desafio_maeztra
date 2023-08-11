@@ -1,0 +1,29 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #353535;
+    height: 233px;
+    justify-content: space-around;
+   
+}
+.footer-powered{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+}
+.footer-powered-vtex{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-powered-vtex-logo{
+    margin-bottom: 5px;
+}
+@media(min-width: 1200px){
+    .footer{
+        flex-direction: row;
+        height: 85px;
+        align-items: center;
+    }
+}
