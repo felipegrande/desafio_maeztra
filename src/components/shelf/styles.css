@@ -29,6 +29,11 @@
         width: 0;
     }
 }
+@media(min-width: 1000px){
+    .shelf-container{
+        overflow-x: hidden;
+    }
+}
 
 @media(min-width: 1200px){
     .shelf h2 {

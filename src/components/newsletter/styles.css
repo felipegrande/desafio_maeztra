@@ -58,6 +58,15 @@
     text-align: center;
 
 }
+@media(max-width: 1000px){
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+   
+}
 @media(min-width: 1200px){
     .newsletter{
         display: flex;
